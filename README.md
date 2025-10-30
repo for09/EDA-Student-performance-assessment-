@@ -1,46 +1,48 @@
-# Project Information
+# 🎓 Student Performance Analysis using Python (EDA & Visualization)
 
-Exploring Student datadet containing attributes as given below:
+## 📄 Overview
+This project performs a detailed **Exploratory Data Analysis (EDA)** on a student performance dataset to identify factors influencing academic outcomes.  
+The dataset includes demographic attributes, parental education levels, lunch types, test preparation status, and performance scores in **Math, Reading, and Writing**.  
 
-* gender: sex of student (male/female)
-* race/ethnicity: ethnicity of student (Group A,B,C,D,E)
-* parental level of education: parents' final education (bachelor's degree,some collefe,master's degree,assocaition.s degree,high school)
-* lunch: having lunch before test(standard or free/reduced)
-* test preparation course: complete or not complete before test
- math score
-* reading score
-* writing score
+Using **Python, Pandas, Matplotlib, and Seaborn**, the analysis investigates correlations, categorical distributions, and performance trends across multiple attributes.  
 
-In this EDA Different checks run on dataset are:
+---
 
-* missing values
-* duplicate values
-* data types
-* number of unique vlaues of each column
-* statistics of dataset
-* various categories present in the different categorical column 
+## 🧰 Tech Stack
+- **Languages & Libraries:** Python, Pandas, NumPy, Matplotlib, Seaborn  
+- **Tools:** Jupyter Notebook  
+- **Techniques:** Data Cleaning, Statistical Analysis, Feature Visualization, Outlier Detection, Correlation Mapping  
 
-This is followed by transforming data into the needed form and visualizing distribution of data
+---
 
-* Multivariate analysis using pieplot is performed to display relative percentage od diffrent attributes
+## 🧼 Data Preprocessing & Transformation
+- Checked and handled **missing values, duplicates, and data type inconsistencies**  
+- Converted categorical variables for visualization and correlation analysis  
+- Generated summary statistics and unique value counts for each attribute  
 
-Feature wise visualization is performed using:
+---
 
-* Univariate analysis (Ex. How is distribution of Gender)
-* Bivariate analysis (Ex. Does Gender has any impact on student's performance)
- 
- 
-Check for outliers is performed using boxplot 
+## 📊 Analysis & Visualization
+- **Univariate Analysis:** Explored distributions of categorical and numerical features  
+- **Bivariate Analysis:** Compared performance metrics (math, reading, writing) against demographic and socio-economic features  
+- **Multivariate Analysis:** Utilized pairplots and pie charts to understand interrelationships among multiple variables  
+- **Outlier Detection:** Employed boxplots to identify score anomalies and data deviations  
 
+---
 
- It is followed by,
- 
- * Multivariate analysis using pairplot 
- 
- 
- Finally conclusion is included to summarize all the useful findings.
+## 🧠 Key Insights
+- Students who **completed test preparation courses** consistently outperformed those who didn’t.  
+- **Parental education level** and **lunch type** showed significant influence on overall test scores.  
+- **Gender differences** were evident in writing vs. math scores, highlighting subject-based performance trends.  
 
+---
 
+## 🚀 Impact
+This analysis demonstrates the power of **data-driven insights in educational systems**, enabling evidence-based improvements in academic support and student success strategies.  
 
+---
 
-
+## 👩‍💻 Author
+**Foram Brahmbhatt**  
+Master of Engineering in Systems & Technology – *McMaster University*  
+Focused on transforming raw data into meaningful intelligence through analytics, visualization, and system design.
